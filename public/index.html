@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كافيه مهندسين</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>كافيه مهندسين</h1>
+    </header>
+    <div id="chat-container">
+        <div id="messages"></div>
+        <form id="message-form">
+            <input id="message-input" type="text" placeholder="Type your message..." autocomplete="off">
+            <input id="image-input" type="file" accept="image/*">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <footer>
+        <p>Developed by <strong>Youssef Adel</strong></p>
+        <p>Phone: <a href="tel:01060208259">01060208259</a></p>
+        <p>Facebook: <a href="https://www.facebook.com/share/15PKTkrZE5/" target="_blank">Visit my profile</a></p>
+    </footer>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
